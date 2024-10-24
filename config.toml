@@ -1,0 +1,17 @@
+#本文件为用户配置文件
+#在credentials，填入用户名、密码
+#在settings，knowledge_warehouse中填入你想选择的知识库
+#           import_way中选择你想导入的板块，由数字代号
+#           file_path中复制你本地的文件地址
+
+[credentials]
+username = ""  # 替换为实际的用户名
+password = ""    # 替换为实际的密码
+token = ""     # 登录后获取的 token
+
+
+[settings]
+kb_id = "66782ab50a3294c7505042b7"  # 知识库 ID
+knowledge_warehouse = "爬虫测试"
+import_way = 0  # 0: 直接分段, 1: QA拆分, 2: CSV导入, 3: Excel导入
+file_path = 'C:\Users\Hanqi\Desktop\我的体会.docx'
